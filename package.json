@@ -1,0 +1,21 @@
+{
+  "name": "pavel-rubiev-ai-systems-tryzens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/run.ts",
+    "verify": "tsx src/verify.ts",
+    "test": "tsx src/verify.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

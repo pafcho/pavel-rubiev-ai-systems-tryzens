@@ -1,0 +1,44 @@
+[
+  {
+    "order_id": "ORD-100",
+    "customer_id": "CUST-001",
+    "status": "in_transit",
+    "currency": "EUR",
+    "total": 64.80,
+    "items": [
+      { "item_id": "ITEM-101", "name": "Ceramic Dinner Set", "quantity": 1, "unit_price": 64.80 }
+    ],
+    "shipping": { "carrier": "DHL", "tracking_number": "DHL-ORD100-TEST" }
+  },
+  {
+    "order_id": "ORD-200",
+    "customer_id": "CUST-001",
+    "status": "delivered",
+    "currency": "EUR",
+    "total": 54.80,
+    "items": [
+      { "item_id": "ITEM-201", "name": "Wine Glass", "quantity": 2, "unit_price": 14.90 },
+      { "item_id": "ITEM-202", "name": "Decanter", "quantity": 1, "unit_price": 25.00 }
+    ]
+  },
+  {
+    "order_id": "ORD-204",
+    "customer_id": "CUST-002",
+    "status": "delivered",
+    "currency": "EUR",
+    "total": 129.00,
+    "items": [
+      { "item_id": "ITEM-401", "name": "Wireless Headphones", "quantity": 1, "unit_price": 129.00 }
+    ]
+  },
+  {
+    "order_id": "ORD-300",
+    "customer_id": "CUST-001",
+    "status": "returned",
+    "currency": "EUR",
+    "total": 29.90,
+    "items": [
+      { "item_id": "ITEM-301", "name": "Travel Mug", "quantity": 1, "unit_price": 29.90, "return_status": "received" }
+    ]
+  }
+]
